@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+
+/****本页通用CSS部分 Start****/
+
+a{text-decoration: none; }
+
+/****本页通用CSS部分 End****/
+
+/****本页响应式CSS部分 Start****/
+
+@media screen and (min-width : 1400px )
+{
+	
+}
+
+@media screen and (min-width: 840px ) and (max-width: 1399px)
+{
+	
+}
+
+@media screen and (max-width: 839px)
+{
+	
+}
+
+/****本页响应式CSS部分 End****/
+
+/*瑶玲啊瑶玲团队*/
+/*Heyyoyorang.com Copyright*/
+/*2016~2017 All Rights Reserved*/

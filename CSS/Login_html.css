@@ -1,0 +1,345 @@
+@charset "utf-8";
+/* CSS Document */
+
+/****本页通用CSS部分 Start****/
+
+body{
+	margin: 0px; font-family: "微软雅黑 Light","微软雅黑"; font-weight: lighter; 
+}
+
+a{
+	text-decoration: none; 
+}
+
+.topbar{
+	position: absolute; background-color: rgba(0,0,0,0.1); z-index: 8000; transition: 0.5s;
+}
+.WebsiteLogo-c{
+	position: relative; float: left; transition: 0.5s; 
+}
+.topbar-nav{
+	position: relative; float: right; transition: 0.5s;
+}
+.topbar-nav-link{
+	position: relative; float: right; color: #ffffff; transition: 0.3s; 
+}
+.topbar-nav-link:hover{
+	color: #ff50aa;
+}
+
+.cover{
+	position: absolute; background-image: url(../Images/Login_html/BGP-01.jpg); background-position: center; background-repeat: no-repeat; background-size: cover; 
+}
+.welcome{
+	position: relative; margin: auto; text-align: center; color: #ffffff; 
+}
+.welcome a{
+	color: #ff90f0;
+}
+.title{
+	position: relative; margin: auto; text-align: center; color: #ffffff;
+}
+.main{
+	position: relative; margin: auto; background-color: rgba(255,255,255,0.1); transition: 0.5s; overflow: hidden; 
+}
+.line{
+	position: relative; margin: auto; text-align: center; 
+}
+.line span{
+	position: relative; display: inline-block; text-align: center; color: #ffffff; 
+}
+.input-a{
+	outline: none; border: none; font-family: "微软雅黑 Light","微软雅黑"; font-weight: lighter; 
+}
+.input-a:focus{
+	background-color: rgba(200,220,255,1);
+}
+.input-b{
+	outline: none; border: none; font-family: "微软雅黑 Light","微软雅黑"; font-weight: lighter; 
+}
+.input-b:focus{
+	background-color: rgba(200,220,255,1);
+}
+.vcodediv{
+	display: inline; 
+}
+.remember{
+	position: relative; display: inline-block; 
+}
+.forget{
+	position: relative; display: inline-block; 
+}
+.forget a{
+	position: relative; color: #ffffff; 
+}
+.forget a:hover{
+	color: #ff50aa; 
+}
+.login-button{
+	outline: none; border: none; background-color: rgba(120,160,255,1.00); color: #ffffff; font-family: "微软雅黑 Light","微软雅黑"; font-weight: lighter; cursor: pointer; 
+}
+.login-button:hover{
+	background-color: rgba(80,150,255,1.00); 
+}
+.login-button:focus{
+	background-color: rgba(60,140,255,1.00); 
+}
+.register-link{
+	color: #ffffff;
+}
+.register-link:hover{
+	color: #ff50aa;
+}
+.otherlogin{
+	position: relative; margin: auto; 
+}
+.otherlogin span{
+	position: relative; display: inline-block; color: #ffffff; 
+}
+.loginoption{
+	position: relative;
+}
+.loginoption a{
+	position: relative; display: inline-block; 
+}
+.loginoption img{
+	position: relative;
+}
+
+
+/****本页通用CSS部分 End****/
+
+/****本页响应式CSS部分 Start****/
+
+@media screen and (min-width : 1400px )
+{
+	.topbar{
+		top: 0px; height: 60px; left: 0px; right: 0px; width: 100%; min-width: 1300px;
+	}
+	.WebsiteLogo-c{
+		left: 50px; width: 140px;
+	}
+	.topbar-nav{
+		right: 50px; 
+	}
+	.topbar-nav-link{
+		width: 120px; height:60px; line-height: 60px; text-align: center; 
+	}
+	
+	.cover{
+		left: 0px; top: 0px; width: 100%; height: 100%; min-height: 720px;
+	}
+	.welcome{
+		top: 120px; font-size: 40px; 
+	}
+	.title{
+		top: 180px; font-size: 22px; 
+	}
+	.main{
+		top: 200px; width: 600px; height: 440px; padding-right: 60px; padding-top: 20px; 
+	}
+	.line{
+		height: 60px; 
+	}
+	.line span
+	{
+		line-height: 60px; width: 100px; 
+	}
+	.input-a{
+		height: 36px; width: 240px; font-size: 16px; padding-left: 5px; 
+	}
+	.input-b{
+		height: 36px; width: 125px; font-size: 16px; padding-left: 5px; 
+	}
+	.vcodeimg{
+		position: relative; top: 14px; height: 38px; margin-left: 10px; margin-top: -10px;
+	}
+	.remember{
+		width: 200px; height: 60px; 
+	}
+	.forget{
+		width: 140px; height: 60px; 
+	}
+	.forget a{
+		line-height: 60px; 
+	}
+	.login-button{
+		width: 210px; height: 36px; font-size: 16px; margin-top: 12px; 
+	}
+	.register-link{
+		margin-left: 50px; 
+	}
+	.otherlogin{
+		height: 120px; 
+	}
+	.otherlogin span{
+		line-height: 60px; margin-left: 150px; 
+	}
+	.loginoption{
+		margin-left: 150px; 
+	}
+	.loginoption a{
+		margin-right: 10px; 
+	}
+	.loginoption img{
+		width: 48px; 
+	}
+	
+	
+	
+	
+}
+
+@media screen and (min-width: 840px ) and (max-width: 1399px)
+{
+	.topbar{
+		top: 0px; height: 50px; left: 0px; right: 0px; min-width: 800px;
+	}
+	.WebsiteLogo-c{
+		left: 40px; width: 120px;
+	}
+	.topbar-nav{
+		right: 40px; 
+	}
+	.topbar-nav-link{
+		width: 120px; height:50px; line-height: 50px; text-align: center; 
+	}
+	
+	.cover{
+		left: 0px; top: 0px; width: 100%; height: 100%; min-height: 600px;
+	}
+	.welcome{
+		top: 100px; font-size: 36px; 
+	}
+	.title{
+		top: 140px; font-size: 20px; 
+	}
+	.main{
+		top: 160px; width: 500px; height: 380px; padding-right: 50px; padding-top: 15px; 
+	}
+	.line{
+		height: 50px; 
+	}
+	.line span
+	{
+		line-height: 50px; width: 100px; 
+	}
+	.input-a{
+		height: 32px; width: 220px; font-size: 14px; padding-left: 5px; 
+	}
+	.input-b{
+		height: 32px; width: 114px; font-size: 14px; padding-left: 5px; 
+	}
+	.vcodeimg{
+		position: relative; top: 12px; height: 34px; margin-left: 10px; margin-top: -6px;
+	}
+	.remember{
+		width: 200px; height: 50px; 
+	}
+	.forget{
+		width: 120px; height: 50px; 
+	}
+	.forget a{
+		line-height: 50px; 
+	}
+	.login-button{
+		width: 200px; height: 32px; font-size: 16px; margin-top: 9px; 
+	}
+	.register-link{
+		margin-left: 30px; 
+	}
+	.otherlogin{
+		height: 100px; 
+	}
+	.otherlogin span{
+		line-height: 50px; margin-left: 120px; 
+	}
+	.loginoption{
+		margin-left: 120px; 
+	}
+	.loginoption a{
+		margin-right: 10px; 
+	}
+	.loginoption img{
+		width: 36px; 
+	}
+	
+	
+	
+}
+
+@media screen and (max-width: 839px)
+{
+	.topbar{
+		display: none; 
+	}
+	
+	.cover{
+		left: 0px; top: 0px; width: 100%; height: 100%; min-height: 460px;
+	}
+	.welcome{
+		top: 60px; font-size: 22px; 
+	}
+	.title{
+		top: 80px; font-size: 16px; 
+	}
+	.main{
+		top: 90px; width: 310px; height: 320px; padding-right: 10px; padding-top: 10px; 
+	}
+	.line{
+		height: 40px; 
+	}
+	.line span
+	{
+		line-height: 40px; width: 100px; font-size: 14px; 
+	}
+	.input-a{
+		height: 28px; width: 180px; font-size: 14px; padding-left: 3px; 
+	}
+	.input-b{
+		height: 28px; width: 90px; font-size: 14px; padding-left: 3px; 
+	}
+	.vcodeimg{
+		position: relative; top: 10px; height:30px; margin-left: 6px; margin-top: -10px;
+	}
+	.remember{
+		width: 140px; height: 40px; 
+	}
+	.forget{
+		width: 80px; height: 40px; font-size: 14px; 
+	}
+	.forget a{
+		line-height: 40px; 
+	}
+	.login-button{
+		width: 160px; height: 28px; font-size: 14px; margin-top: 6px; 
+	}
+	.register-link{
+		margin-left: 30px; font-size: 14px; 
+	}
+	.otherlogin{
+		height: 100px; 
+	}
+	.otherlogin span{
+		line-height: 40px; margin-left: 40px; font-size: 14px; 
+	}
+	.loginoption{
+		margin-left: 40px; 
+	}
+	.loginoption a{
+		margin-right: 8px; 
+	}
+	.loginoption img{
+		width: 32px; 
+	}
+	
+	
+	
+	
+}
+
+/****本页响应式CSS部分 End****/
+
+/*瑶玲啊瑶玲团队*/
+/*Heyyoyorang.com Copyright*/
+/*2016~2017 All Rights Reserved*/

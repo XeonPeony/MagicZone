@@ -1,0 +1,16 @@
+相对目录 CSS\
+存放全部CSS文件
+
+文件 CSS\Common.css
+存放通用CSS样式代码
+
+
+相对目录 JavaScript\
+存放全部JS文件
+
+
+相对目录 Images\
+存放全部图片
+
+相对目录 Images\Common\
+存放通用图片
