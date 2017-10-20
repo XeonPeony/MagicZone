@@ -14,3 +14,14 @@
 
 相对目录 Images\Common\
 存放通用图片
+
+
+手机端的topbar暂时不统一设计。这里设定topbar的全局样式，如果需要不同页面分别设定，去各个页面的CSS文件编写。每个页面HTML文件先加载全局CSS文件，再加载其专属的CSS文件，这样可以保证，每个页面专属的样式覆盖全局样式。
+
+
+.topbar
+.WebsiteLogo-c
+.topbar-nav
+.topbar-nav-link
+这四个是topbar部分的class。
+以上是全局样式的class名称。

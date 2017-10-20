@@ -2,8 +2,31 @@
 /* CSS Document */
 
 /****本页通用CSS部分 Start****/
+body{
+	margin: 0px; font-family: "微软雅黑 Light","微软雅黑"; font-weight: lighter; 
+}
 
-a{text-decoration: none; }
+a{
+	text-decoration: none; 
+}
+
+.topbar{
+	position: absolute; background-color: rgba(0,0,0,0.1); z-index: 8000; transition: 0.5s;
+}
+.WebsiteLogo-c{
+	position: relative; float: left; transition: 0.5s; 
+}
+.topbar-nav{
+	position: relative; float: right; transition: 0.5s;
+}
+.topbar-nav-link{
+	position: relative; float: right; color: #ffffff; transition: 0.3s; 
+}
+.topbar-nav-link:hover{
+	color: #ff50aa;
+}
+
+
 
 /****本页通用CSS部分 End****/
 
@@ -11,16 +34,47 @@ a{text-decoration: none; }
 
 @media screen and (min-width : 1400px )
 {
+	.topbar{
+		top: 0px; height: 60px; left: 0px; right: 0px; width: 100%; min-width: 1300px;
+	}
+	.WebsiteLogo-c{
+		left: 50px; width: 140px;
+	}
+	.topbar-nav{
+		right: 50px; 
+	}
+	.topbar-nav-link{
+		width: 120px; height:60px; line-height: 60px; text-align: center; 
+	}
+	
 	
 }
 
 @media screen and (min-width: 840px ) and (max-width: 1399px)
 {
+	.topbar{
+		top: 0px; height: 50px; left: 0px; right: 0px; min-width: 800px;
+	}
+	.WebsiteLogo-c{
+		left: 40px; width: 120px;
+	}
+	.topbar-nav{
+		right: 40px; 
+	}
+	.topbar-nav-link{
+		width: 120px; height:50px; line-height: 50px; text-align: center; 
+	}
+	
 	
 }
 
 @media screen and (max-width: 839px)
 {
+	.topbar{
+		display: none; 
+	}
+	/*手机端的topbar暂时不统一设计。这里设定topbar的全局样式，如果需要不同页面分别设定，去各个页面的CSS文件编写。每个页面HTML文件先加载全局CSS文件，再加载其专属的CSS文件，这样可以保证，每个页面专属的样式覆盖全局样式*/
+	
 	
 }
 
